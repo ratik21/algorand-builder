@@ -31,6 +31,8 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+  # typescript using sphinx_js: https://pypi.org/project/sphinx-js/
+  'sphinx_js'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -57,3 +59,13 @@ html_static_path = ['_static']
 # tell readthedocs.io which is the master doc
 # https://stackoverflow.com/questions/56336234/build-fail-sphinx-error-contents-rst-not-found
 master_doc = 'index'
+
+# sphinx_js variables
+js_language = 'typescript'
+#root_for_relative_js_paths = '../'
+js_source_path = '../../src'
+# https://github.com/mozilla/sphinx-js/issues/80
+jsdoc_config_path = '../../tsconfig.json'
+
+ # [, './../../src/lib/']
+ # [, './../../src/builtin-tasks/']

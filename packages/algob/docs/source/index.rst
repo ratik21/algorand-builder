@@ -10,7 +10,7 @@ Welcome to Algorand Builder's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+.. js:autoclass:: AlgobDeployerImpl
 
 Indices and tables
 ==================

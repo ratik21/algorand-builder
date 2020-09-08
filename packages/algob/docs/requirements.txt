@@ -8,6 +8,7 @@ imagesize==1.2.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
 packaging==20.4
+parsimonious==0.7.0
 Pygments==2.6.1
 pyparsing==2.4.7
 pytz==2020.1
@@ -15,6 +16,7 @@ requests==2.24.0
 six==1.15.0
 snowballstemmer==2.0.0
 Sphinx==3.2.1
+sphinx-js==3.0.1
 sphinxcontrib-applehelp==1.0.2
 sphinxcontrib-devhelp==1.0.2
 sphinxcontrib-htmlhelp==1.0.3

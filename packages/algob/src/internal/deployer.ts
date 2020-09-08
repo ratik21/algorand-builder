@@ -18,7 +18,9 @@ import {
 import { BuilderError } from "./core/errors";
 import { ERRORS } from "./core/errors-list";
 
-// This class is what user interacts with in deploy task
+/**
+   This class is what user interacts with in deploy task
+*/
 export class AlgobDeployerImpl implements AlgobDeployer {
   private readonly runtimeEnv: AlgobRuntimeEnv;
   private readonly cpData: CheckpointRepo;
